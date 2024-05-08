@@ -20,5 +20,41 @@
   width: 60px;
   height: 60px;
   border: 2px solid #dddddd;
+  font-weight: bold;
   /*margin: 2px;*/
+}
+
+.keypad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.keypad-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.keypad-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 50px;
+  /*margin: 2px;*/
+  border-radius: 10px;
+  background-color: #dddddd;
+  font-weight: bold;
+}
+
+.lg {
+  width: 70px;
+}
+.keypad-img {
+  width: 30px;
 }
